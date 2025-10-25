@@ -1,4 +1,4 @@
-import { EMPTY } from "./consts";
+import { EMPTY } from "./str";
 
 type Falsy = false | 0 | 0n | "" | null | undefined;
 type Truthy<T> = Exclude<T, Falsy>;
