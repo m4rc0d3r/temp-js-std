@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/m4rc0d3r/temp-js-std/compare/v1.2.0...v1.2.1) (2025-10-25)
+
+
+### Bug Fixes
+
+* leave untouch all chars except first in 'capitalize' function ([34a3c60](https://github.com/m4rc0d3r/temp-js-std/commit/34a3c60e0db31209002404d34a5ce1894a65dbe2))
+
 ## [1.2.0](https://github.com/m4rc0d3r/temp-js-std/compare/v1.1.0...v1.2.0) (2025-10-25)
 
 
