@@ -1,0 +1,35 @@
+# This workflow will run tests using node and then publish a package to GitHub Packages when a release is created
+# For more information see: https://docs.github.com/en/actions/publishing-packages/publishing-nodejs-packages
+
+name: Research file tree
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source repo
+        uses: actions/checkout@v4
+        with:
+          path: source
+
+      - name: Checkout dist repo
+        uses: actions/checkout@v4
+        with:
+          repository: m4rc0d3r/str-dist
+          path: dist
+
+      - name: Show file tree
+        run: |
+          pwd
+          ls -ali
+          ls -ali source
+          ls -ali dist
+          cd ..
+          ls -ali
+          cd ..
+          ls -ali
