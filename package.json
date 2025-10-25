@@ -1,0 +1,67 @@
+{
+  "name": "@m4rc0d3r/js-std",
+  "description": "The package acts as something like a standard JavaScript library and provides extended versions of standard functions, as well as functions that are not included in JavaScript out of the box.",
+  "version": "0.0.0",
+  "author": "Mark <m4rc0d3r@gmail.com>",
+  "devDependencies": {
+    "@commitlint/cli": "^20.1.0",
+    "@commitlint/config-conventional": "^20.0.0",
+    "@commitlint/types": "^20.0.0",
+    "@eslint/js": "^9.38.0",
+    "@npmcli/arborist": "^9.1.6",
+    "@types/node": "^24.9.1",
+    "@types/npm-packlist": "^7.0.3",
+    "@types/npmcli__arborist": "^6.3.1",
+    "eslint": "^9.38.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-import-resolver-typescript": "^4.4.4",
+    "eslint-plugin-import": "^2.32.0",
+    "globals": "^16.4.0",
+    "husky": "^9.1.7",
+    "jiti": "^2.6.1",
+    "lint-staged": "^16.2.5",
+    "npm-packlist": "^10.0.2",
+    "prettier": "^3.6.2",
+    "prettier-plugin-jsdoc": "^1.3.3",
+    "syncpack": "^13.0.4",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.2",
+    "unbuild": "^3.6.1"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "commonjs",
+    "core",
+    "esm",
+    "helpers",
+    "javascript",
+    "js-std",
+    "stdlib",
+    "typescript",
+    "utility",
+    "utils"
+  ],
+  "license": "ISC",
+  "main": "./dist/index.cjs",
+  "packageManager": "pnpm@10.11.0",
+  "repository": "m4rc0d3r/js-std.git",
+  "scripts": {
+    "build": "unbuild",
+    "format:check": "prettier --check .",
+    "format:fix": "prettier --write .",
+    "lint:check": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "prepare": "husky",
+    "typeCheck": "tsc --noEmit"
+  },
+  "type": "module",
+  "types": "./dist/index.d.ts"
+}
