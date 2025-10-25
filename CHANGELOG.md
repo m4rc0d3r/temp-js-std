@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.0](https://github.com/m4rc0d3r/temp-js-std/compare/v1.1.0...v1.2.0) (2025-10-25)
+
+
+### Features
+
+* add function to capitalize string ([b83f583](https://github.com/m4rc0d3r/temp-js-std/commit/b83f58315d24e92f4c59801cac868dcf18268056))
+* create functions to convert case of strings ([9d580f1](https://github.com/m4rc0d3r/temp-js-std/commit/9d580f1b3f4416960b6985e9fcde4519e8993aaf))
+
 ## [1.1.0](https://github.com/m4rc0d3r/temp-js-std/compare/v1.0.0...v1.1.0) (2025-10-25)
 
 
