@@ -1,5 +1,22 @@
 # Changelog
 
+## [2.0.0](https://github.com/m4rc0d3r/temp-js-std/compare/v1.2.1...v2.0.0) (2025-10-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* redesign file structure
+
+### Features
+
+* add colon as string constant ([3248fbd](https://github.com/m4rc0d3r/temp-js-std/commit/3248fbd527a32515b6268e0bb7a9330fa0cd6cb1))
+* create functions for check if value is truthy or falsy ([b332559](https://github.com/m4rc0d3r/temp-js-std/commit/b33255902576f21dfc8518fa1bc8f08ec22daed2))
+
+
+### Code Refactoring
+
+* redesign file structure ([3b508dc](https://github.com/m4rc0d3r/temp-js-std/commit/3b508dce96baada459be99bed34bd17ba86e63d5))
+
 ## [1.2.1](https://github.com/m4rc0d3r/temp-js-std/compare/v1.2.0...v1.2.1) (2025-10-25)
 
 
