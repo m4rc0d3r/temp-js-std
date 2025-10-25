@@ -59,6 +59,7 @@
     "format:fix": "prettier --write .",
     "lint:check": "eslint .",
     "lint:fix": "eslint --fix .",
+    "listOfFilesToPublish": "jiti scripts/get-files-to-publish.ts",
     "prepare": "husky",
     "typeCheck": "tsc --noEmit"
   },
