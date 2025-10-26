@@ -11,8 +11,6 @@
     "target": "esnext"
   },
   "module": {
-    "type": "commonjs",
-    "outFileExtension": "cjs",
-    "resolveFully": true
+    "type": "commonjs"
   }
 }

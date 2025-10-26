@@ -32,9 +32,9 @@
   },
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.cjs"
+      "types": "./dist/dts/index.d.ts",
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js"
     }
   },
   "files": [
@@ -53,13 +53,13 @@
     "utils"
   ],
   "license": "ISC",
-  "main": "./dist/index.cjs",
-  "module": "./dist/index.mjs",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
   "packageManager": "pnpm@10.11.0",
   "scripts": {
     "build": "concurrently --kill-others-on-fail -p \"[{name}]\" -n \"TSC,CJS,ESM\" -c \"blue.bold,yellow.bold,green.bold\" \"pnpm build:ts\" \"pnpm build:cjs\" \"pnpm build:esm\"",
-    "build:cjs": "pnpm build:swc -d dist --out-file-extension cjs",
-    "build:esm": "pnpm build:swc -C module.type=es6 -C module.outFileExtension=mjs -d dist --out-file-extension mjs",
+    "build:cjs": "pnpm build:swc -d dist/cjs",
+    "build:esm": "pnpm build:swc -C module.type=es6 -d dist/esm",
     "build:swc": "swc --strip-leading-paths src",
     "build:ts": "tsc -p tsconfig.build.json",
     "format:check": "prettier --check .",
@@ -71,5 +71,5 @@
     "typeCheck": "tsc --noEmit"
   },
   "type": "module",
-  "types": "dist/index.d.ts"
+  "types": "./dist/dts/index.d.ts"
 }
