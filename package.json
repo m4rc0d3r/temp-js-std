@@ -59,7 +59,7 @@
   "scripts": {
     "build": "concurrently --kill-others-on-fail -p \"[{name}]\" -n \"TSC,CJS,ESM\" -c \"blue.bold,yellow.bold,green.bold\" \"pnpm build:ts\" \"pnpm build:cjs\" \"pnpm build:esm\"",
     "build:cjs": "pnpm build:swc -d dist --out-file-extension cjs",
-    "build:esm": "pnpm build:swc -C module.type=es6 -C module.outFileExtension=mjs -d dist --out-file-extension mjs",
+    "build:esm": "pnpm build:swc -C module.type=es6 -C module.outFileExtension=mjs -C module.resolveFully=true -d dist --out-file-extension mjs",
     "build:swc": "swc --strip-leading-paths src",
     "build:ts": "tsc -p tsconfig.build.json",
     "format:check": "prettier --check .",
