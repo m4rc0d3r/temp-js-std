@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.2.0](https://github.com/m4rc0d3r/temp-js-std/compare/v3.1.0...v3.2.0) (2025-10-26)
+
+
+### Features
+
+* add 'toInt' function to 'num' module ([90b6972](https://github.com/m4rc0d3r/temp-js-std/commit/90b6972dd00087c62ae233f94eac4b462a2c51a4))
+
 ## [3.1.0](https://github.com/m4rc0d3r/temp-js-std/compare/v3.0.0...v3.1.0) (2025-10-26)
 
 
