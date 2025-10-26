@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.0](https://github.com/m4rc0d3r/temp-js-std/compare/v3.0.0...v3.1.0) (2025-10-26)
+
+
+### Features
+
+* create 'num' module ([fedd486](https://github.com/m4rc0d3r/temp-js-std/commit/fedd486bcbe939500de6a5df5b046cd627d598d8))
+
 ## [3.0.0](https://github.com/m4rc0d3r/temp-js-std/compare/v2.0.0...v3.0.0) (2025-10-26)
 
 
