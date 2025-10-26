@@ -1,7 +1,7 @@
 {
   "name": "@m4rc0d3r/js-std",
   "description": "The package acts as something like a standard JavaScript library and provides extended versions of standard functions, as well as functions that are not included in JavaScript out of the box.",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "author": "Mark <m4rc0d3r@gmail.com>",
   "devDependencies": {
     "@commitlint/cli": "^20.1.0",

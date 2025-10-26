@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.0.0](https://github.com/m4rc0d3r/temp-js-std/compare/v2.0.0...v3.0.0) (2025-10-26)
+
+
+### ⚠ BREAKING CHANGES
+
+* restructure export structure
+
+### Code Refactoring
+
+* restructure export structure ([f4739ad](https://github.com/m4rc0d3r/temp-js-std/commit/f4739ade759e0b2c48fafbc8aeeea25721388f52))
+
 ## [2.0.0](https://github.com/m4rc0d3r/temp-js-std/compare/v1.2.1...v2.0.0) (2025-10-25)
 
 
