@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.3.0](https://github.com/m4rc0d3r/temp-js-std/compare/v3.2.0...v3.3.0) (2025-10-26)
+
+
+### Features
+
+* create 'isInt' predicate ([38372a4](https://github.com/m4rc0d3r/temp-js-std/commit/38372a4dd7549e9f6fade1cdc3902ec7b2a1d782))
+
 ## [3.2.0](https://github.com/m4rc0d3r/temp-js-std/compare/v3.1.0...v3.2.0) (2025-10-26)
 
 
