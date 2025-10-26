@@ -6,10 +6,8 @@ const PACKAGE_JSON = "package.json";
 /** @type {import("lint-staged").Configuration} */
 const config = {
   "*.{json,md,yaml,yml}": (files) => {
-    return runWithFiles(
-      PRETTIER_COMMAND,
-      files.filter((file) => path.basename(file) !== PACKAGE_JSON),
-    );
+    const filteredFiles = files.filter((file) => path.basename(file) !== PACKAGE_JSON);
+    return filteredFiles.length > 0 ? runWithFiles(PRETTIER_COMMAND, filteredFiles) : [];
   },
   "*.{js,cjs,mjs,ts,mts,cts}": (files) => {
     return [
