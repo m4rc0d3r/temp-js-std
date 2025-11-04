@@ -11,8 +11,10 @@ jobs:
     steps:
       - name: Testing...
         run: |
-          echo "Secret: ${{ secrets.SOME_SECRET_FOR_TESTING }}"
-          echo "Env var 'SOME_SECRET_FOR_TESTING': $SOME_SECRET_FOR_TESTING"
+          echo "secrets.SOME_SECRET_FOR_TESTING='$${{ secrets.SOME_SECRET_FOR_TESTING }}'"
+          echo "SUPER_SECRET='$SUPER_SECRET'"
+          echo "SOME_SECRET_FOR_TESTING='$SOME_SECRET_FOR_TESTING'"
+
   with-env:
     runs-on: ubuntu-latest
     steps:
@@ -21,6 +23,6 @@ jobs:
           SUPER_SECRET: ${{ secrets.SOME_SECRET_FOR_TESTING }}
           SOME_SECRET_FOR_TESTING: ${{ secrets.SOME_SECRET_FOR_TESTING }}
         run: |
-          echo "Secret: ${{ secrets.SOME_SECRET_FOR_TESTING }}"
-          echo "Env var 'SUPER_SECRET': $SUPER_SECRET"
-          echo "Env var 'SOME_SECRET_FOR_TESTING': $SOME_SECRET_FOR_TESTING"
+          echo "secrets.SOME_SECRET_FOR_TESTING='$${{ secrets.SOME_SECRET_FOR_TESTING }}'"
+          echo "SUPER_SECRET='$SUPER_SECRET'"
+          echo "SOME_SECRET_FOR_TESTING='$SOME_SECRET_FOR_TESTING'"
