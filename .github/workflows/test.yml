@@ -14,11 +14,6 @@ jobs:
           echo "secrets.SOME_SECRET_FOR_TESTING='${{ secrets.SOME_SECRET_FOR_TESTING }}'"
           echo "SUPER_SECRET='$SUPER_SECRET'"
           echo "SOME_SECRET_FOR_TESTING='$SOME_SECRET_FOR_TESTING'"
-  without-env2:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Testing...
-        run: echo "${{ secrets.SOME_SECRET_FOR_TESTING }}"
 
   with-env:
     runs-on: ubuntu-latest
@@ -28,6 +23,6 @@ jobs:
           SUPER_SECRET: ${{ secrets.SOME_SECRET_FOR_TESTING }}
           SOME_SECRET_FOR_TESTING: ${{ secrets.SOME_SECRET_FOR_TESTING }}
         run: |
-          echo "secrets.SOME_SECRET_FOR_TESTING='$${{ secrets.SOME_SECRET_FOR_TESTING }}'"
+          echo "secrets.SOME_SECRET_FOR_TESTING='${{ secrets.SOME_SECRET_FOR_TESTING }}'"
           echo "SUPER_SECRET='$SUPER_SECRET'"
           echo "SOME_SECRET_FOR_TESTING='$SOME_SECRET_FOR_TESTING'"
