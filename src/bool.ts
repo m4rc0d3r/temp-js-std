@@ -5,9 +5,9 @@ type Truthy<T> = Exclude<T, Falsy>;
 
 function isFalsy(value: unknown): value is Falsy {
   return (
-    value === EMPTY ||
-    value === false ||
     value === 0 ||
+    value === false ||
+    value === EMPTY ||
     value === 0n ||
     (typeof value === "number" && isNaN(value)) ||
     value === null ||
