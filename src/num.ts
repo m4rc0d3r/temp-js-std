@@ -3,4 +3,8 @@ const isOdd = (value: number) => !isEven(value);
 const toInt = (value: number) => Math.floor(value);
 const isInt = (value: number) => Number.isInteger(value);
 
+export default function parseJson(value: string) {
+  return JSON.parse(value) as unknown;
+}
+
 export { isEven, isInt, isOdd, toInt };
