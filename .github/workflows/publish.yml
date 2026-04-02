@@ -41,6 +41,7 @@ jobs:
           cd source
           pnpm --silent listOfFilesToPublish | xargs -I {} cp --parents "{}" ../dist
           cd ../dist
+          find dist -name "*.d.ts" -type f -exec sh -c 'cp "$0" "${0%.d.ts}.d.cts"' {} \;
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .
