@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.5.0](https://github.com/m4rc0d3r/temp-js-std/compare/v3.4.0...v3.5.0) (2026-04-02)
+
+
+### Features
+
+* create 'parseJson' function ([8e8c414](https://github.com/m4rc0d3r/temp-js-std/commit/8e8c41442117199338640d71c65a87d2fb722619))
+
 ## [3.4.0](https://github.com/m4rc0d3r/temp-js-std/compare/v3.3.0...v3.4.0) (2026-04-02)
 
 
