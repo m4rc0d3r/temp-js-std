@@ -13,4 +13,5 @@ function toJson(value: JsonValue) {
   JSON.stringify(value);
 }
 
+export type { ArrayElement } from "type-fest";
 export { isEven, isInt, isOdd, parseJson, toInt, toJson };

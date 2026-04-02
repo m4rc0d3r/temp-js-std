@@ -1,3 +1,5 @@
+import type { Entries } from "type-fest";
+
 import { EMPTY } from "./str";
 
 type Falsy = false | 0 | 0n | "" | null | undefined;
@@ -23,5 +25,7 @@ function isTrue(value: unknown) {
   return value === true;
 }
 
+type ObjEntries<T> = Entries<T>;
+
 export { isFalsy, isTrue, isTruthy };
-export type { Falsy, Truthy };
+export type { Falsy, ObjEntries, Truthy };
