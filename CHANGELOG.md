@@ -3,6 +3,51 @@
 ## [3.6.1](https://github.com/m4rc0d3r/temp-js-std/compare/v3.6.1...v3.6.1) (2026-04-02)
 
 
+### ⚠ BREAKING CHANGES
+
+* restructure export structure
+* redesign file structure
+
+### Features
+
+* add 'toInt' function to 'num' module ([90b6972](https://github.com/m4rc0d3r/temp-js-std/commit/90b6972dd00087c62ae233f94eac4b462a2c51a4))
+* add colon as string constant ([3248fbd](https://github.com/m4rc0d3r/temp-js-std/commit/3248fbd527a32515b6268e0bb7a9330fa0cd6cb1))
+* add function to capitalize string ([b83f583](https://github.com/m4rc0d3r/temp-js-std/commit/b83f58315d24e92f4c59801cac868dcf18268056))
+* add str constant for backslash symbol ([14431aa](https://github.com/m4rc0d3r/temp-js-std/commit/14431aa98afde5bd54c2d7112dfc07921846fec3))
+* add string constant for slash symbol ([5964959](https://github.com/m4rc0d3r/temp-js-std/commit/5964959661ca81aa6fec49c51cf434c82c3ed70b))
+* create 'isInt' predicate ([38372a4](https://github.com/m4rc0d3r/temp-js-std/commit/38372a4dd7549e9f6fade1cdc3902ec7b2a1d782))
+* create 'isTrue' function ([cf0928f](https://github.com/m4rc0d3r/temp-js-std/commit/cf0928f747151ef2b15b9991b2c4ca8278c50537))
+* create 'num' module ([fedd486](https://github.com/m4rc0d3r/temp-js-std/commit/fedd486bcbe939500de6a5df5b046cd627d598d8))
+* create 'parseJson' function ([8e8c414](https://github.com/m4rc0d3r/temp-js-std/commit/8e8c41442117199338640d71c65a87d2fb722619))
+* create 'toJson' function ([345360d](https://github.com/m4rc0d3r/temp-js-std/commit/345360d9c7c2fbfb30e163482c2d76bc0b8df8df))
+* create functions for check if value is truthy or falsy ([b332559](https://github.com/m4rc0d3r/temp-js-std/commit/b33255902576f21dfc8518fa1bc8f08ec22daed2))
+* create functions to convert case of strings ([9d580f1](https://github.com/m4rc0d3r/temp-js-std/commit/9d580f1b3f4416960b6985e9fcde4519e8993aaf))
+* create string constants ([c2ac96b](https://github.com/m4rc0d3r/temp-js-std/commit/c2ac96b8f2e9b0c32bec51854079870ca212a7fa))
+* export some types from 'type-fest' ([48500dd](https://github.com/m4rc0d3r/temp-js-std/commit/48500dd59a154c44aaa73be6c835599fa3ee15f7))
+
+
+### Bug Fixes
+
+* leave untouch all chars except first in 'capitalize' function ([34a3c60](https://github.com/m4rc0d3r/temp-js-std/commit/34a3c60e0db31209002404d34a5ce1894a65dbe2))
+* move type-fest to deps ([d95d6e5](https://github.com/m4rc0d3r/temp-js-std/commit/d95d6e50a4816d1bbe67dc8d7bbfae7bd3da911b))
+* prev ([2daa29e](https://github.com/m4rc0d3r/temp-js-std/commit/2daa29ed81e70fb041ec523fdde8a4df4bc01522))
+
+
+### Miscellaneous Chores
+
+* release 3.6.1 ([5fa3dfd](https://github.com/m4rc0d3r/temp-js-std/commit/5fa3dfd980cb2fa9a18380f5ce607046f48a5f8f))
+* release 3.6.1 ([70d9138](https://github.com/m4rc0d3r/temp-js-std/commit/70d91386ee94f984d83a5e40116e4221289410b0))
+* release 3.6.1 ([f8d0314](https://github.com/m4rc0d3r/temp-js-std/commit/f8d0314bed5531a436b9b071a938a2fcb3d26969))
+
+
+### Code Refactoring
+
+* redesign file structure ([3b508dc](https://github.com/m4rc0d3r/temp-js-std/commit/3b508dce96baada459be99bed34bd17ba86e63d5))
+* restructure export structure ([f4739ad](https://github.com/m4rc0d3r/temp-js-std/commit/f4739ade759e0b2c48fafbc8aeeea25721388f52))
+
+## [3.6.1](https://github.com/m4rc0d3r/temp-js-std/compare/v3.6.1...v3.6.1) (2026-04-02)
+
+
 ### Bug Fixes
 
 * prev ([2daa29e](https://github.com/m4rc0d3r/temp-js-std/commit/2daa29ed81e70fb041ec523fdde8a4df4bc01522))
