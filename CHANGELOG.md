@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.6.1](https://github.com/m4rc0d3r/temp-js-std/compare/v3.6.0...v3.6.1) (2026-04-02)
+
+
+### Bug Fixes
+
+* move type-fest to deps ([d95d6e5](https://github.com/m4rc0d3r/temp-js-std/commit/d95d6e50a4816d1bbe67dc8d7bbfae7bd3da911b))
+
 ## [3.6.0](https://github.com/m4rc0d3r/temp-js-std/compare/v3.5.0...v3.6.0) (2026-04-02)
 
 
