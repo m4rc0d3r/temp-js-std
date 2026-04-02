@@ -3,6 +3,9 @@
   "description": "The package acts as something like a standard JavaScript library and provides extended versions of standard functions, as well as functions that are not included in JavaScript out of the box.",
   "version": "3.6.0",
   "author": "Mark <m4rc0d3r@gmail.com>",
+  "dependencies": {
+    "type-fest": "^5.5.0"
+  },
   "devDependencies": {
     "@commitlint/cli": "^20.1.0",
     "@commitlint/config-conventional": "^20.0.0",
@@ -27,7 +30,6 @@
     "prettier": "^3.6.2",
     "prettier-plugin-jsdoc": "^1.3.3",
     "syncpack": "^13.0.4",
-    "type-fest": "^5.5.0",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.46.2"
   },
