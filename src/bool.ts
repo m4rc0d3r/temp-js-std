@@ -19,5 +19,9 @@ function isTruthy<T>(value: T): value is Truthy<T> {
   return !isFalsy(value);
 }
 
-export { isFalsy, isTruthy };
+function isTrue(value: unknown) {
+  return value === true;
+}
+
+export { isFalsy, isTrue, isTruthy };
 export type { Falsy, Truthy };
