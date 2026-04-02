@@ -4,10 +4,10 @@
 name: build
 
 on:
-  pull_request_target:
-    branches: [main, develop]
+  pull_request:
+    branches: [master]
   push:
-    branches: [main] # только main, не все ветки
+    branches: [master] # только main, не все ветки
 
 jobs:
   build:
