@@ -13,6 +13,19 @@
 * release 3.6.1 ([70d9138](https://github.com/m4rc0d3r/temp-js-std/commit/70d91386ee94f984d83a5e40116e4221289410b0))
 * release 3.6.1 ([f8d0314](https://github.com/m4rc0d3r/temp-js-std/commit/f8d0314bed5531a436b9b071a938a2fcb3d26969))
 
+## [3.6.1](https://github.com/m4rc0d3r/temp-js-std/compare/v3.6.1...v3.6.1) (2026-04-02)
+
+
+### Bug Fixes
+
+* prev ([2daa29e](https://github.com/m4rc0d3r/temp-js-std/commit/2daa29ed81e70fb041ec523fdde8a4df4bc01522))
+
+
+### Miscellaneous Chores
+
+* release 3.6.1 ([70d9138](https://github.com/m4rc0d3r/temp-js-std/commit/70d91386ee94f984d83a5e40116e4221289410b0))
+* release 3.6.1 ([f8d0314](https://github.com/m4rc0d3r/temp-js-std/commit/f8d0314bed5531a436b9b071a938a2fcb3d26969))
+
 ## [3.6.1](https://github.com/m4rc0d3r/temp-js-std/compare/v3.6.2...v3.6.1) (2026-04-02)
 
 
