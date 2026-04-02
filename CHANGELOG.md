@@ -1,5 +1,18 @@
 # Changelog
 
+## [3.6.4](https://github.com/m4rc0d3r/temp-js-std/compare/v3.6.3...v3.6.4) (2026-04-02)
+
+
+### Bug Fixes
+
+* chore ([55c0af0](https://github.com/m4rc0d3r/temp-js-std/commit/55c0af0b99b4ba286b06333e8002dbe15d5219b8))
+* order or boolean ([941a4f5](https://github.com/m4rc0d3r/temp-js-std/commit/941a4f5e8b1351b4cb991bd51237bce764ea7ab8))
+* prev ([871364c](https://github.com/m4rc0d3r/temp-js-std/commit/871364cc1615b33eb95b0e3d1ef5cda9d72ad977))
+* prev ([dc6979b](https://github.com/m4rc0d3r/temp-js-std/commit/dc6979b968fcfb8e7c8618e746b4640a51663ee2))
+* prev ([3900983](https://github.com/m4rc0d3r/temp-js-std/commit/39009836ff110e384db601cacabe4e0bd05c5951))
+* prev 2 ([2e12d7e](https://github.com/m4rc0d3r/temp-js-std/commit/2e12d7e5ac8bd766ae89f4c8eaf9adf057c0e874))
+* version in pnpm ([efb8fcc](https://github.com/m4rc0d3r/temp-js-std/commit/efb8fcc7eac5f78c98d5c07acf89af33b8977b7a))
+
 ## [3.6.3](https://github.com/m4rc0d3r/temp-js-std/compare/v3.6.1...v3.6.3) (2026-04-02)
 
 
