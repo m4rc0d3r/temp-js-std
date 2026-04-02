@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.6.1](https://github.com/m4rc0d3r/temp-js-std/compare/v3.6.2...v3.6.1) (2026-04-02)
+
+
+### Miscellaneous Chores
+
+* release 3.6.1 ([f8d0314](https://github.com/m4rc0d3r/temp-js-std/commit/f8d0314bed5531a436b9b071a938a2fcb3d26969))
+
 ## [3.6.2](https://github.com/m4rc0d3r/temp-js-std/compare/v3.6.1...v3.6.2) (2026-04-02)
 
 
