@@ -3,11 +3,7 @@
 
 name: build
 
-on:
-  pull_request:
-    branches: [master]
-  push:
-    branches: [master] # только main, не все ветки
+on: pull_request
 
 jobs:
   build:
