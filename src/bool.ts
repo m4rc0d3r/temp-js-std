@@ -9,8 +9,8 @@ function isFalsy(value: unknown): value is Falsy {
   return (
     value === 0 ||
     value === false ||
-    value === EMPTY ||
     value === 0n ||
+    value === EMPTY ||
     (typeof value === "number" && isNaN(value)) ||
     value === null ||
     value === undefined
