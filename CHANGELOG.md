@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.6.2](https://github.com/m4rc0d3r/temp-js-std/compare/v3.6.1...v3.6.2) (2026-04-02)
+
+
+### Bug Fixes
+
+* prev ([2daa29e](https://github.com/m4rc0d3r/temp-js-std/commit/2daa29ed81e70fb041ec523fdde8a4df4bc01522))
+
 ## [3.6.1](https://github.com/m4rc0d3r/temp-js-std/compare/v3.6.0...v3.6.1) (2026-04-02)
 
 
