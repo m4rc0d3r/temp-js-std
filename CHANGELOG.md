@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.6.0](https://github.com/m4rc0d3r/temp-js-std/compare/v3.5.0...v3.6.0) (2026-04-02)
+
+
+### Features
+
+* create 'toJson' function ([345360d](https://github.com/m4rc0d3r/temp-js-std/commit/345360d9c7c2fbfb30e163482c2d76bc0b8df8df))
+* export some types from 'type-fest' ([48500dd](https://github.com/m4rc0d3r/temp-js-std/commit/48500dd59a154c44aaa73be6c835599fa3ee15f7))
+
 ## [3.5.0](https://github.com/m4rc0d3r/temp-js-std/compare/v3.4.0...v3.5.0) (2026-04-02)
 
 
