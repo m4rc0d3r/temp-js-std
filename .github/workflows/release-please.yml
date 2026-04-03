@@ -1,4 +1,7 @@
-on: push
+on:
+  push:
+    branches:
+      - dev
 
 permissions:
   contents: write
@@ -20,4 +23,3 @@ jobs:
           # this is a built-in strategy in release-please, see "Action Inputs"
           # for more options
           release-type: node
-          target-branch: master
