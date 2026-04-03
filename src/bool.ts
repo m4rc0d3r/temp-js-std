@@ -12,8 +12,8 @@ function isFalsy(value: unknown): value is Falsy {
     value === false ||
     value === 0n ||
     (typeof value === "number" && isNaN(value)) ||
-    value === null ||
-    value === undefined
+    value === undefined ||
+    value === null
   );
 }
 
