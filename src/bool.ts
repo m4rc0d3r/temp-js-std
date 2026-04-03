@@ -25,7 +25,11 @@ function isTrue(value: unknown) {
   return value === true;
 }
 
+function isTrue2(value: unknown) {
+  return value === true;
+}
+
 type ObjEntries<T> = Entries<T>;
 
-export { isFalsy, isTrue, isTruthy };
+export { isFalsy, isTrue, isTrue2, isTruthy };
 export type { Falsy, ObjEntries, Truthy };
