@@ -1,5 +1,15 @@
 # Changelog
 
+## [3.7.0](https://github.com/m4rc0d3r/temp-js-std/compare/v3.6.4...v3.7.0) (2026-04-06)
+
+
+### Features
+
+* error ([f451cef](https://github.com/m4rc0d3r/temp-js-std/commit/f451cef7d63b1e559d59a07a3f38607eabd6357c))
+* isTrue2 ([191e1f6](https://github.com/m4rc0d3r/temp-js-std/commit/191e1f6ec13e749ee10db373f11b1e715002d5a8))
+* isTrue3 ([666e863](https://github.com/m4rc0d3r/temp-js-std/commit/666e86347effa3bb0312fcebfdab37afcdc3e684))
+* isTrue4 ([9983268](https://github.com/m4rc0d3r/temp-js-std/commit/9983268abd2225189289718ee3b0d939b26ef90d))
+
 ## [3.6.4](https://github.com/m4rc0d3r/temp-js-std/compare/v3.6.3...v3.6.4) (2026-04-02)
 
 
