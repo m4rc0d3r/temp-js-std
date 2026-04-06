@@ -34,6 +34,7 @@ function isTrue3(value: unknown) {
 }
 
 function isTrue4(value: unknown) {
+  const a: string = 5;
   return value === true;
 }
 
